@@ -361,10 +361,10 @@ img {
 .recent-projects_wrapper {
     background-color: #ffffff;
     padding: 16px;
-    box-shadow: 76px 77px 200px rgba(20, 64, 88, 0.1);
+    box-shadow: 20px 15px 35px 0px rgba(20, 64, 88, 0.1)
 }
 .recent-projects_wrapper:hover {
-        transition: all 0.3s ease-in;
+        transition: all 0.5s ease-in-out;
         box-shadow: 76px 77px 200px rgba(20, 64, 88, 0.1),
                     0px 16px 45px -20px rgba(0, 224, 225, 0.19),
                     -1px 1px 6px 0px rgba(0, 42, 104, 0.15);
