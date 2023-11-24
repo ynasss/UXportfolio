@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra's UX Portfolio</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700;900&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,800&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87e6109f91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="yellow">
+        <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
+            <a class="logo" href="index.html">Alexandra Radoulova</a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!--<li><a href="#contact" onclick="menuToggle()">Contact</a></li>-->
+                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>About</h1>
+                <picture class = "profile-img_wrapper">
+                    <source srcset="img/profile/AlexandraID.jpg" media="(max-width:767px)">
+                    <img class = "profile-img" src="img/profile/AlexandraID@2x.jpg" alt="Alexandra's Photo">
+                </picture>
+                <div class="row about-me_wrapper">
+                    <div class="column my_story">
+                        <h2>My Story</h2>
+                        <p>As a classically trained musician, I bring a unique blend of creativity and discipline to my
+                            UX design journey. With a lifelong fascination for psychology, I'm passionate about
+                            understanding user behaviour. My aspirations lie in research, information architecture, 
+                            testing, as well as harmonising business requirements with the creation of intuitive,
+                            user-centred digital experiences.
+                        </p>
+                        <a href="files/Alexandra_cv_to_be.pdf" target="_blank" rel="noopener noreferrer">See my
+                            resume</a>
+
+                    </div>
+                    <div class="column skills_and_tools">
+                        <h2>Skills and Tools</h2>
+                        <div class="card relevant_skills main-message">
+                            <h3>Relevant Skills</h3>
+                            <p>User Research Surveys, Interviews, Usability Testing, User Personas, Journey Mapping,
+                                Wireframing and Prototyping, UI, Information Architecture
+                            </p>
+                        </div>
+                        <div class="card tools_i_use main-message">
+                            <h3>Tools I use</h3>
+                            <p>Figma, Miro, UserTesting.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="container container_footer">
+            <p id="contactMe">Get in touch via <a href="mailto:myemail@gmail.com">mail</a></p>
+            <!--<a class="contact" href="https://www.linkedin.com/" target="_blank">
+                <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32"
+                    width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <path
+                            d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
+                            fill="#007BB5" />
+                        <g>
+                            <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
+                            <path
+                                d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z"
+                                fill="#FFFFFF" />
+                            <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+                        </g>
+                    </g>
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                </svg>
+            </a>-->
+            <p class="copyright">Copyright Alexandra 23</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+</html>

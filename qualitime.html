@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra's UX Portfolio</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700;900&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,800&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87e6109f91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="green">
+        <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
+            <a class="logo" href="index.html">Alexandra Radoulova</a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!--<li><a href="#contact" onclick="menuToggle()">Contact</a></li>-->
+                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h1>QualyTime <span class="h1_subtitle">your hobby's best friend</span></h1>
+                <picture class="full-scr_img">
+                    <source srcset="img/qualytime/qualytime_hero@2x.jpg" media="(max-width:767px)">
+                    <img src="img/qualytime/qualytime_hero.jpg" alt="qualytime_mockups">
+                </picture>
+                <div class="info-wrapper row">
+                    <div class="info-wrapper_content column">
+                        <p class="info-wrapper_heading">Role &amp; Scope</p>
+                        <ul class="info-wrapper_list">
+                            <li class="info-wrapper_list-item"><span class="list_label">Project type:
+                                </span>Web-responsive app</li>
+                            <li class="info-wrapper_list-item"><span class="list_label">Duration: </span>7 months</li>
+                            <li class="info-wrapper_list-item"><span class="list_label">Role: </span>UX Design from
+                                Concept to MVP and Prototype</li>
+                            <li class="info-wrapper_list-item"><span class="list_label">Project context:
+                                </span>Careerfoundry coursework Project</li>
+                            <li class="info-wrapper_list-item"><span class="list_label">Team size: </span>3 people - me,
+                                a Mentor, and a Tutor</li>
+                        </ul>
+                    </div>
+                    <div class="info-wrapper_content column">
+                        <p class="info-wrapper_heading">Project Details</p>
+                        <ul class="info-wrapper_list">
+                            <li class="info-wrapper_list-item"><span class="list_label">Audience: </span>Hobbyists,
+                                Millenials</li>
+                            <li class="info-wrapper_list-item"><span class="list_label">Methods: </span>Ideation, User
+                                Research, IA, User Testing, UI,
+                                Prototyping</li>
+                            <li class="info-wrapper_list-item"><span class="list_label">Tools: </span>Figma, Miro</li>
+                        </ul>
+                    </div>
+                    <div class="info-wrapper_content column">
+                        <p class="info-wrapper_heading">Project's Business Requierments</p>
+                        <ul class="info-wrapper_list">
+                            <li class="info-wrapper_list-item">Browse and choose an expert</li>
+                            <li class="info-wrapper_list-item">Chat with an expert</li>
+                            <li class="info-wrapper_list-item">Arrange a call with an expert</li>
+                            <li class="info-wrapper_list-item">Pay for expert's time</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-message intro-text">
+                    <h3>Introduction</h3>
+                    <p>QualyTime empowers hobbyists at all levels with the tools and guidance they
+                        need to learn, advance, and make the most of their time, offering an array of inspirational
+                        materials and expert advice.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="research">
+            <div class="container">
+                <h2>Research &amp; Discovery</h2>
+                <figure class="full-scr_img">
+                    <picture>
+                        <source srcset="img/qualytime/affinity_map_.jpg" media="(max-width:767px)">
+                        <img src="img/qualytime/affinity_map_@2x.jpg" alt="affinity map">
+                    </picture>
+                    <figcaption>A snippet of the affinity map created to draw insights from the 5 interviews with
+                        potential users</figcaption>
+                </figure>
+                <div class="research_container container">
+                    <div class="research main-message">
+                        <h3>Interview Research Goals</h3>
+                        <ul class="research-goals_list">
+                            <li class="research-goals_list-item">How do people choose, prepare, start, and progress in
+                                an
+                                activity;</li>
+                            <li class="research-goals_list-item">What supports people best in their hobbies- materials,
+                                best
+                                practices etc;</li>
+                            <li class="research-goals_list-item">When do people feel trust towards information sources
+                                in
+                                unfamiliar fields;</li>
+                        </ul>
+                    </div>
+                    <div class="hypothesis main-message">
+                        <h3>Research informed hypothesis</h3>
+                        <p>Hobbyists need a video-based learning platform, whose content creators
+                            serve
+                            as teachers and advisors, thereby fostering skill advancement and time optimization.</p>
+                    </div>
+                    <button class="toggle-button" data-id="research-details" data-read-more="Read more" data-read-less="Read less">Read more</button>
+                    <div class="research main-message detailed-info hidden" id="research-details">
+                        <h3>Research Insights</h3>
+                        <p>The 5 one hour interviews with people from the target audience uncovered
+                            that:</p>
+                        <ol class="research-insights_list">
+                            <li class="research-insights_list-item">People feel intimidated by the word “expert”.
+                                Calling
+                                the app-experts Teachers would make the hobbyists feel more comfortable reaching out.
+                            </li>
+                            <li class="research-insights_list-item">Reaching out to an online stranger is hard. People
+                                would
+                                like to know more about the teachers personality and life- provide a Teachers Profile
+                                with
+                                personal statement, credentials and photos.</li>
+                            <li class="research-insights_list-item">People prefer to learn with video tutorials, when
+                                possible. Finding the “right” learning materials is so frustrating, that people would
+                                often
+                                give up early on. Providing expert-proofed video-tutorials created by the QualyTime
+                                teachers
+                                might help with that problem.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="personas-journeys_container container">
+                    <div class="personas-journeys main-info">
+                        <h3>Creating User Personas</h3>
+                        <div class="personas_wrapper column">
+                            <picture class="img_container_personas">
+                                <source srcset="img/qualytime/personas_@x1.jpg" media="(max-width:767px)">
+                                <img src="img/qualytime/personas_@x2.jpg" alt="User Personas">
+                            </picture>
+                            <div class="text_container_personas row">
+                                <div class="primary main-message">
+                                    <h3>Primary</h3>
+                                    <p>A die-hard-hobbyist- for them, their creations are an
+                                        important
+                                        part
+                                        of
+                                        their identity. They are skilled and know what they need to learn or improve.
+                                        For them, finding the “right” teacher is a main priority.
+                                    </p>
+                                </div>
+                                <div class="secondary main-message">
+                                    <h3>Secondary</h3>
+                                    <p>A casual hobby-enthusiast: they enjoy spending their limited
+                                        free
+                                        time
+                                        doing something creative or trying out new things.
+                                        For them the access to curated learning materials and good advice is most
+                                        important.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="toggle-button" data-id="journey-details" data-read-more="Read more" data-read-less="Read less">Read more</button>
+                    </div>
+                    <div class="personas-journeys hidden" id="journey-details">
+                        <div class="main-message">
+                            <h3>Creating Journey Maps</h3>
+                            <p>The journey maps provided detailed insights into what hobbyists
+                                might
+                                aim to accomplish with QualyTime, as well as the features that could facilitate
+                                these
+                                tasks
+                                more effortlessly.</p>
+                        </div>
+                        <div class="row journey_wrapper">
+                            <figure class="full-scr_img journey-map-1">
+                                <picture>
+                                    <source srcset="img/qualytime/journeymap_1.jpg" media="(max-width:767px)">
+                                    <img src="img/qualytime/journeymap_1@2x.jpg" alt="journey map">
+                                </picture>
+                                <figcaption>The Journey of choosing and preparing for a hobby project</figcaption>
+                            </figure>
+                            <figure class="full-scr_img journey-map-2">
+                                <picture>
+                                    <source srcset="img/qualytime/journeymap_2.jpg" media="(max-width:767px)">
+                                    <img src="img/qualytime/journeymap_2@2x.jpg" alt="journey map">
+                                </picture>
+                                <figcaption>The Journey of booking a call with a teacher</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-conclusion main-message">
+                    <h3>Research Conclusion</h3>
+                    <p>Based on the user research, user personas, and user journey maps, I
+                        concluded that the most useful MVP for hobbyists would provide:</p>
+                    <ul class="research-conclusion_list">
+                        <li class="research-conclusion_list-item">A way to browse, sort and filter lessons;</li>
+                        <li class="research-conclusion_list-item">A Lesson Area containing information on the project,
+                            its teacher, tutorials, and support materials;</li>
+                        <li class="research-conclusion_list-item">A way to call and chat with a teacher.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section class="ideation">
+            <div class="container">
+                <h2>Ideation</h2>
+                <div class="image_wrapper row">
+                    <figure class="img_flow column">
+                        <picture>
+                            <source srcset="img/qualytime/user_flow.jpg" media="(max-width:767px)">
+                            <img src="img/qualytime/user_flow@2x.jpg" alt="user flow">
+                        </picture>
+                        <figcaption>"Book a call" &amp; "Browse tutorials" user flows</figcaption>
+                    </figure>
+                    <figure class="img_map column">
+                        <picture>
+                            <source srcset="img/qualytime/sitemap.jpg" media="(max-width:767px)">
+                            <img src="img/qualytime/sitemap@2x.jpg" alt="sitemap">
+                        </picture>
+                        <figcaption>Sitemap after card sorting</figcaption>
+                    </figure>
+                </div>
+                <div class="main-message process">
+                    <h3>Process</h3>
+                    <p>To define the app's Information Architecture and
+                        identify its key features, I
+                        initially created User Flows. These subsequently evolved into a Sitemap, which was then
+                        refined
+                        and
+                        validated through an iterative process of card sorting.</p>
+                </div>
+                <div class="img-text_wrapper row">
+                    <figure class="img_container column browsing">
+                        <picture>
+                            <source srcset="img/qualytime/lofi_wireframe.jpg" media="(max-width:767px)">
+                            <img src="img/qualytime/lofi_wireframe@2x.jpg" alt="low fidelity wireframes">
+                        </picture>
+                        <figcaption>Low-fi Wireframes-Home screen, Browsing, and opening a Lesson-Area
+                        </figcaption>
+                    </figure>
+                    <div class="column text_container browsing">
+                        <h3>Browsing</h3>
+                        <p>The landing page serves as the initial point for users to browse and
+                            search through tutorials and hobby categories.</p>
+                    </div>
+                </div>
+                <div class="img-text_wrapper row lesson-area">
+                    <figure class="img_container column">
+                        <picture>
+                            <source srcset="img/qualytime/lo_mid_wireframes.jpg" media="(max-width:767px)">
+                            <img src="img/qualytime/lo_mid_wireframes@2x.jpg" alt="low and mid fidelity wireframes">
+                        </picture>
+                        <figcaption>Low and Mid fidelity wireframes of the Lesson Area</figcaption>
+                    </figure>
+                    <div class="text_container column lesson-area">
+                        <h3>Lesson Area</h3>
+                        <p>The contents of the Lesson Area are organized through a tab menu,
+                            including:</p>
+                        <ol class="lesson-area-content_list">
+                            <li class="lesson-area-content_list-item">Information on lesson details, such as content
+                                description, images, duration, difficulty, creator, and related videos
+                            </li>
+                            <li class="lesson-area-content_list-item">Video tutorials and learning materials</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="img-text_wrapper row teacher-id">
+                    <div class="img_container column">
+                        <figure>
+                            <picture>
+                                <source srcset="img/qualytime/lo_mid_wireframes_teacherID.jpg"
+                                    media="(max-width:767px)">
+                                <img src="img/qualytime/lo_mid_wireframes_teacherID@2x.jpg"
+                                    alt="low and mid fidelity wireframes">
+                            </picture>
+                            <figcaption>Low and Mid fidelity wireframes of the Teacher's Profile</figcaption>
+                        </figure>
+                    </div>
+                    <div class="text_container column teacher_id">
+                        <h3>Teacher's Profile</h3>
+                        <p>3. For the user's convenience, the third tab was transformed into a
+                            "Teacher's Profile" section. This section provides information on the teacher's creative
+                            path, personal work, and interests, offering users the option to book a call or initiate a
+                            chat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testing">
+            <div class="container">
+                <h2>Testing &amp; Iterating</h2>
+                <div class="testing main-message">
+                    <h3>Usability Testing</h3>
+                    <p>The app's Information Architecture and Navigation patterns underwent
+                        validation through moderated Usability Tests and an A/B Test. However, these tests also
+                        uncovered usability issues within the app's UI.</p>
+                    <button class="toggle-button" data-id="test-details" data-read-more="Read more" data-read-less="Read less">Read more</button>
+                </div>
+                <div class="test-details detailed-info hidden" id="test-details">
+                    <div class="main-message">
+                        <h3>Test Details</h3>
+                        <p>6 Moderated in-person and remote Usability Tests
+                            A/B Test with 20 participants, unmoderated, remote.
+                        </p>
+                    </div>
+                    <div class="main-message">
+                        <h3>Test Objectives</h3>
+                        <ul class="test-objectives_list">
+                            <li class="test-objectives_list-item"><span class="list_label">Asses Navigation Efficiency:
+                                </span>Evaluate the user's ability to navigate the app effortlessly, focusing on
+                                elements like search functionality, menus, browsing experience, and tab accessibility.
+                            </li>
+                            <li class="test-objectives_list-item"><span class="list_label">Ease-of-contact Evaluation:
+                                </span>Examine the simplicity and intuitiveness of contacting a teacher through the app.
+                            </li>
+                            <li class="test-objectives_list-item"><span class="list_label">Ongoing Communications
+                                    Accessibility: </span>Assess how easily users can locate and access ongoing
+                                communications within the app.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ab-test img-text_wrapper row">
+                    <figure class="img_container ab_img column">
+                        <picture>
+                            <source srcset="img/qualytime/clickmap.jpg" media="(max-width:767px)">
+                            <img src="img/qualytime/clickmap@2x.jpg" id="ab_img" alt="clickmap">
+                        </picture>
+                        <figcaption>Lesson's area click map: all 20 testers clicked at least once on the image
+                            carousel trying play the video-lesson.
+                        </figcaption>
+                    </figure>
+                    <div class="text_container column">
+                        <h3>UI Problem</h3>
+                        <p>When prompted to watch a video, testers frequently misclicked the
+                            image-carousel in the Lesson Area's first tab, leading to confusion and potential app
+                            abandonment. This issue also adversely affects the discoverability of the tab pattern.
+                        </p>
+                    </div>
+                </div>
+                <div class="soluton img-text_wrapper row">
+                    <figure class="img_container">
+                        <picture>
+                            <source srcset="img/qualytime/lesson_area_progress.jpg" media="(max-width:767px)">
+                            <img src="img/qualytime/lesson_area_progress@2x.jpg" alt="lesson-area iteration">
+                        </picture>
+                        <figcaption>Before and after applying MD3 guidelines</figcaption>
+                    </figure>
+                    <div class="solution text_container column">
+                        <h3>Solution</h3>
+                        <p>A solution would be to implement a visually prominent tab menu and a
+                            distinctive image carousel, while also leveraging the principles of Material Design 3 to
+                            improve video discoverability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="prototype">
+            <div class="container">
+                <h2>High-fidelity Prototype</h2>
+                <div class="prototype img-text_wrapper row">
+                    <figure class="img_container prototype_img column">
+                        <picture>
+                            <source srcset="img/qualytime/mockup.jpg" media="(max-width:767px)">
+                            <img id="prototype_img" src="img/qualytime/mockup@2x.jpg" alt="qualytime mockup">
+                        </picture>
+                        <figcaption class="link_caption"><a
+                                href="https://www.figma.com/proto/9crukMBTKIUdY2hxl49FJL/6.5-QualyTime-Presentation?page-id=82%3A702&type=design&node-id=2101-1973&viewport=838%2C816%2C0.04&t=185kEHWdriE6F3i5-1&scaling=scale-down&starting-point-node-id=2101%3A1973&mode=design">Check
+                                out my high-fidelity prototype</a></figcaption>
+                    </figure>
+                    <div class="prototype text_container column">
+                        <p>To provide an immersive experience for all individuals interested in the
+                            QualyTime project, I developed a high-fidelity prototype. To maximize the effectiveness and
+                            functionality of the product, I adhered to the Level A usability and Level AAA color
+                            contrast standards as outlined in the Web Content Accessibility Guidelines.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="container container_footer">
+            <p id="contactMe">Get in touch via <a href="mailto:myemail@gmail.com">mail</a></p>
+            <!--<a class="contact" href="https://www.linkedin.com/" target="_blank">
+                <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32"
+                    width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <path
+                            d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
+                            fill="#007BB5" />
+                        <g>
+                            <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
+                            <path
+                                d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z"
+                                fill="#FFFFFF" />
+                            <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+                        </g>
+                    </g>
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                    <g />
+                </svg>
+            </a>-->
+            <p class="copyright">Copyright Alexandra 23</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
