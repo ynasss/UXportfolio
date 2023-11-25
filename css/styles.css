@@ -102,10 +102,7 @@ a:hover {
     text-shadow: 0 4px 16px rgba(0, 9, 223, 0.38);
 }
 a:focus {
-    outline-color: #faaf78;
-    outline-style: dotted;
-    color: #742800;
-    outline-width: 1px;
+    border-bottom: #3f006d;
 }
 a:active {
     color: #E61C1C;
@@ -134,7 +131,7 @@ button:hover {
     border-radius: 2px;
     text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 20px 15px 35px 0px rgba(20, 64, 88, 0.1);
+    box-shadow: 6px 5px 35px 0px rgba(20, 64, 88, 0.1);
     position: relative;
 }
 .button:visited {
@@ -142,6 +139,7 @@ button:hover {
 }
 .button:hover {
     transition: all 0.2s ease-in-out;
+    color: #220835;
     box-shadow: 76px 77px 200px rgba(20, 64, 88, 0.1),
                 0px 16px 45px -20px rgba(0, 224, 225, 0.19),
                 -1px 1px 6px 0px rgba(0, 42, 104, 0.15);
@@ -192,6 +190,9 @@ a.logo {
     font-weight: 900;
     text-decoration: none;
 }
+a.logo:hover {
+    text-shadow: none;
+}
 .navtoggle li .icon {
     position: absolute;
     right: 0;
@@ -226,9 +227,6 @@ header {
     width: 100%;
     background-image: linear-gradient(#E4FCFF, #EFEFEF);
     padding: 2em 0;
-    /*box-shadow: 0 11px 29px rgba(176, 165, 158, 0.3)  ; 
-	-webkit-box-shadow: 0 11px 29px rgba(176, 165, 158, 0.3)  ; 
-	-moz-box-shadow: 0 11px 29px rgba(176, 165, 158, 0.3)  ; */
     z-index: 999;
     }
 .nav {
@@ -249,10 +247,8 @@ header {
     color: #282828;
 }
 .nav > li > a:hover {
-    color: #004E70;
-    text-shadow: 0 4px 16px rgba(0, 9, 223, 0.38);
-    text-decoration: underline;
-    text-underline-offset: 4px;
+    color: #3f006d;
+    text-shadow: 0 4px 16px rgba(245, 50, 236, 0.7);
 }
 main {
     display: flex;
@@ -379,13 +375,13 @@ img {
 .recent-projects_wrapper:hover {
         transition: all 0.2s ease-in-out;
         box-shadow: 76px 77px 200px rgba(20, 64, 88, 0.1),
-                    0px 16px 45px -20px rgba(0, 224, 225, 0.19),
+                    0px 16px 45px -20px rgba(225, 0, 165, 0.19),
                     -1px 1px 6px 0px rgba(0, 42, 104, 0.15);
         top: -2px;
 }
 .recent-projects_wrapper:hover h3 {
     transition: all 0.3s ease-in-out;
-    color: #004E70;
+    color: #3f006d;
 }
 .recent-projects_wrapper p {
     margin: 0;
