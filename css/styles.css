@@ -127,29 +127,33 @@ button:hover {
 }
 .button {
     display: inline-block;
-    color: #ffffff;
-    background-color: rgb(168, 121, 87);
-    font-weight: 800;
-    padding: 4px 8px;
-    border-radius: 4px;
-    transition: 0.2s;
+    color: #4E4C4C;
+    background-color: #ffffff;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 2px;
     text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 20px 15px 35px 0px rgba(20, 64, 88, 0.1);
+    position: relative;
 }
 .button:visited {
-    color: #fff;
+    color: #4E4C4C;
 }
 .button:hover {
-    box-shadow: 0px 1px 16px rgba(105, 56, 21, 0.5);
-    /*shadow does not respond to offset values*/
+    transition: all 0.2s ease-in-out;
+    box-shadow: 76px 77px 200px rgba(20, 64, 88, 0.1),
+                0px 16px 45px -20px rgba(0, 224, 225, 0.19),
+                -1px 1px 6px 0px rgba(0, 42, 104, 0.15);
+    top: -2px;
 }
 .button:focus {
     box-shadow: none;
     opacity: 0.8;
 }
 .button:active {
-    color: #FF9243;
-    background-color: transparent;
-    border: 3px solid #FF9243;
+text-decoration: underline;
+text-underline-offset: 4px;
 }
 .testing,
 .research_container {
@@ -235,7 +239,7 @@ header {
 
 .nav > li > a{
     padding: 16px 16px;
-    text-transform: lowercase;
+    text-transform: none;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     color: #282828;
@@ -251,7 +255,6 @@ header {
     text-underline-offset: 4px;
 }
 main {
-    padding-top: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -302,6 +305,12 @@ header .container {
 }
 .row.about-me_wrapper {
     text-align: left;
+    align-items: center;
+    margin: 0;
+}
+.my_story {
+    width:80%;
+    justify-content: center;
 }
 .column {
     display: flex;
@@ -347,8 +356,10 @@ img {
     }
 .profile-img {
         /*height: 100%;*/
+        width: 80%;
         object-fit: cover;
         aspect-ratio: 1 /1;
+        border-radius: 4px;
     }
 .personas-journeys_container {
         display: flex;
@@ -384,6 +395,10 @@ img {
     gap: 1em;
     
 }
+.button_container {
+    display: flex;
+    justify-content: space-around;
+}
 @media only screen and (min-width: 640px) {
     main {
         padding-left: 2em;
@@ -418,7 +433,6 @@ img {
     }
     .container {
         padding: 0 16px;
-        gap: 3em;
     }
 
     .column {
@@ -469,7 +483,7 @@ img {
     }
     .profile-img_wrapper {
         height: 400px;
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
     }
     .profile-img {
@@ -509,7 +523,7 @@ img {
         margin-left: auto;
         margin-right: auto;
         padding: 0 32px;
-        gap: 4em;
+        gap: 3em;
     }
     .info-wrapper_list-item {
         font-size: 0.7em;
