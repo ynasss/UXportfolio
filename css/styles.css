@@ -107,6 +107,9 @@ a:focus {
 a:active {
     color: #E61C1C;
 } 
+/*a.recent-projects_link {
+    text-decoration: none;
+}*/
 button {
     border-width: 0;
     border-style:none;
