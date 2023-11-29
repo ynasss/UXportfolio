@@ -111,10 +111,6 @@ a:focus {
 a:active {
     color: #E61C1C;
 } 
-
-/*a.recent-projects_link {
-    text-decoration: none;
-}*/
 #gototop_button {
     display: none;
     position: fixed;
@@ -418,6 +414,9 @@ img {
     transition: all 0.3s ease-in-out;
     color: inherit;
 }
+.recent-projects_title {
+    font-size: 2rem;
+}
 .recent-projects_wrapper p {
     margin: 0;
 }
@@ -428,7 +427,6 @@ img {
 .recent-projects_link {
     text-shadow: none;
     text-decoration: none;
-    color: #3f006d;
 }
 .clickable a::after {
     content: "";
