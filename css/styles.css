@@ -201,9 +201,9 @@ a.logo:hover {
 }
 .navtoggle li .icon {
     position: absolute;
-    right: 0;
-    top: 0;
-    padding:0;
+    right: -16px;
+    top: -10px;
+    padding: 10px 16px;
     outline: none;
 
 }
@@ -286,13 +286,14 @@ footer {
 }
 #contactMe {
     color: #4E4C4C;
-    font-family: 'Maven Pro' sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     font-size: 1em;
     font-weight: 700;
 }
 p.copyright{
 margin-block-start: 0;
 margin-block-end: 0;
+font-size: 16px;
 }
 header .container {
     display: flex;
@@ -397,7 +398,16 @@ img {
 .recent-projects_info {
     justify-content: center;
     gap: 1em;
-    
+}
+.recent-projects_link {
+    text-shadow: none;
+    text-decoration: none;
+    color: #3f006d;
+}
+.clickable a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
 }
 .button_container {
     display: flex;
@@ -407,6 +417,7 @@ img {
     main {
         padding-left: 2em;
         padding-right: 2em;
+        min-height: calc(100vh  - 174.4px);
     }
     header {
         padding: 20px 0px;
@@ -514,6 +525,7 @@ img {
     }main {
         padding-left: 4em;
         padding-right: 4em;
+        min-height: calc(100vh - 187.6px);
     }
     /*.recent-projects_image {
         width: 65%;
