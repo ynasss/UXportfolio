@@ -387,6 +387,9 @@ img {
     max-height: 400px;
     width: auto;
 }
+.ab_img {
+    align-items: center;
+}
 .info-wrapper_content {
     padding-left: 1em;
 }
@@ -501,6 +504,9 @@ img.persona {
 .journey {
     height: 100%;
 }
+.img-text_wrapper {
+    flex-direction: column-reverse;
+}
 @media only screen and (min-width: 640px) {
     main {
         padding-left: 2em;
@@ -608,9 +614,7 @@ img.persona {
     }
 }
 @media only screen and (min-width: 1024px) {
-    body {
-        font-size: 2rem;
-    }main {
+    main {
         padding-left: 4em;
         padding-right: 4em;
         min-height: calc(100vh - 187.6px);
