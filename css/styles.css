@@ -492,10 +492,11 @@ text-align: center;
 padding: 0 1em;
 }
 .contents {
-    margin-top: 2em;
+    margin-top: 4em;
+    margin-bottom: 2em;
     display:flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 2em;
 }
 img.persona {
     height: 100%;
@@ -568,7 +569,7 @@ img.persona {
         padding-top: 1em;
     }
     .full-scr_img {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
     }
     .img_container {
@@ -630,7 +631,6 @@ img.persona {
         max-width: 900px;
     }
     .full-scr_img {
-        width: 50%;
         margin: 0 auto;
     }
     .profile-img_wrapper {
