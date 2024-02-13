@@ -298,7 +298,7 @@ header {
 }
 .nav > li > a:hover {
     color: #3f006d;
-    text-shadow: 0 4px 16px rgba(245, 50, 236, 0.7);
+    text-shadow: 0 4px 16px rgba(151, 149, 48, 1);
 }
 main {
     display: flex;
@@ -507,6 +507,13 @@ img.persona {
 }
 .img-text_wrapper {
     flex-direction: column-reverse;
+}
+.link_caption {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    width: max-content;
 }
 @media only screen and (min-width: 640px) {
     main {
