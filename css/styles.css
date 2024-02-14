@@ -515,6 +515,15 @@ img.persona {
     display: flex;
     width: max-content;
 }
+/*.seven_img {
+    max-height: 380px;
+    width: auto;
+    margin: 0 auto;
+}
+.seven_figure {
+    display: flex;
+    justify-content: center;
+}*/
 @media only screen and (min-width: 640px) {
     main {
         padding-left: 2em;
