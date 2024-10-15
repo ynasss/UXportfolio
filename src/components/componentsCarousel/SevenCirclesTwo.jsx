@@ -11,14 +11,17 @@ function SevenCirclesTwo() {
 
     return (
         <div className="carousel_card" onMouseEnter={handleHoverOn} onMouseLeave={handleHoverOff} >
-            <div className="button_container">
-                <div className="top_arrow"></div>
-                <div className="bottom_arrow"></div>
+            <div className="carousel_text">       
+                <div className="text_contianer">
+                    <h3 className='carousel_text_h3'>SevenCircles</h3>
+                    <h4 className='carousel_text_h4'>website redesign of an art non-profit</h4>
+                </div>
+                <div className="button_container">
+                    <div className="top_arrow"></div>
+                    <div className="bottom_arrow"></div>
+                </div>
             </div>
-            <div className="carousel_text">
-                <h3 className='carousel_text_h3'>SevenCircles</h3>
-                <h4 className='carousel_text_h4'>website redesign of an art non-profit</h4>
-            </div>
+            
             <img className='carousel_image' src={seven} alt="Not available" />
 
             <div className={`hover_red_carousel ${hoverRed ? 'fade_in' : 'fade_out'}`}></div>

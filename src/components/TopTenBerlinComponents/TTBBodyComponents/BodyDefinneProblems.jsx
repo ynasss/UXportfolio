@@ -161,7 +161,7 @@ function DefineProblems() {
                 </div>
                 <div className="pic_arch_TTB ">
                     <img className="testing_arch_img_TTB" src={TTBDropdown} alt="Not available" />
-                    <h6>Click map of the Lesson Area</h6>
+                    <h6>Top10&apos;s pre-redesign navigation</h6>
                 </div>
             </div>
 
@@ -196,7 +196,7 @@ function DefineProblems() {
 
             <div className="pic_ideation_arch_SC small_text_gap_TTB section_gap">
                 <img className="image_ideation_arch_SC" src={TraficTTB} alt="Not available" />
-                <h6>Sitemap SevenSircles</h6>
+                <h6>Top10 Traffic spikes June 22 / Mai 24, Google Analytics</h6>
             </div>
 
             <div className="section_gap">

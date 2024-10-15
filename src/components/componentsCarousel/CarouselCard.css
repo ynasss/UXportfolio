@@ -14,9 +14,17 @@
 }
 
 .carousel_text {
-    padding: 0.5rem;
     padding-bottom: 1rem;
+    display: flex;
     z-index: 50;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 99%;
+    justify-content: space-between;
+}
+
+.text_contianer {
+    width: 80%;
 }
 
 .carousel_text_h3 {
@@ -42,8 +50,8 @@
 
 .hover_red_carousel {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 35%;
+    left: 40%;
     width: 100%;
     max-width: 427px;
     height: 25.5rem;

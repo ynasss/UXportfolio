@@ -11,14 +11,21 @@ function QualyTimeOne() {
 
     return (
         <div className="carousel_card" onMouseEnter={handleHoverOn} onMouseLeave={handleHoverOff} >
-            <div className="button_container">
-                <div className="top_arrow"></div>
-                <div className="bottom_arrow"></div>
-            </div>
+            
             <div className="carousel_text">
-                <h3 className='carousel_text_h3'>QualyTime</h3>
-                <h4 className='carousel_text_h4'>Best place to find and learn more about your hobbies</h4>
+
+                <div className="text_contianer">
+                    <h3 className='carousel_text_h3'>QualyTime</h3>
+                    <h4 className='carousel_text_h4'>Best place to find and learn more about your hobbies</h4>
+                </div>
+
+                <div className="button_container">
+                    <div className="top_arrow"></div>
+                    <div className="bottom_arrow"></div>
+                </div>
+
             </div>
+            
             <img className='carousel_image' src={qualyTime} alt="Not available" />
 
             <div className={`hover_red_carousel ${hoverRed ? 'fade_in' : 'fade_out'}`}></div>

@@ -53,7 +53,8 @@
 
 .img_container img {
     height: auto;
-    width: 66%;
+    /* width: 66%; */
+    max-width: 324px;
     border-radius: 1rem;
 }
 
@@ -80,7 +81,7 @@
     }
 
     .img_container img {
-        width: 85%;
+        width: 80%;
     }
 
     .home_section_position { 

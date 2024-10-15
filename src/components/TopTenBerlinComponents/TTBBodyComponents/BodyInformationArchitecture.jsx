@@ -49,7 +49,7 @@ function InformationArchitecture() {
 {/* gib image Content Three */}
             <div className="pic_ideation_arch_SC fourth_two_half_gap">
                 <img className="image_ideation_arch_SC" src={ContentTree} alt="Not available" />
-                <h6>Snippet from the interviews&apos; Affinity Map</h6>
+                <h6>Two level Sitemaps of Top10</h6>
             </div>
 
             <div className="section_text_width_TTB in_section_gap">
@@ -178,7 +178,7 @@ function InformationArchitecture() {
                     </div>
                     <div className="pic_ideation_arch ideation_arch_img_second TTB_img_strch">
                         <img className="img_box_dev_expo eight_gap" src={TwoFeatures} alt="not available" />
-                        <h6>Home, Browsing, low-fidelity wireframes</h6>
+                        <h6>1. Mid-fidelity wireframe: filter feature <br /> 2.Lo-fidelity wireframe suggestive search</h6>
                     </div>
                 </div>    
             </div>

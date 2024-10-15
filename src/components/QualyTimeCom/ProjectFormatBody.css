@@ -234,8 +234,6 @@
 .testing_arch_img_two {
     width: 100%;
     height: auto;
-    /* width: 393px;
-    height: 426px; */
 }
 
 /* Interactive secion */
@@ -243,8 +241,7 @@
 .interactive_img {
     width: 100%;
     height: auto;
-    /* width: 848px;
-    height: 583px; */
+    border-radius: 1rem;
 }
 
 .project_footer_buttons {

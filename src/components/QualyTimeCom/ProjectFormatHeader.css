@@ -159,6 +159,10 @@
 }
 
 @media (max-width: 768px) {
+    .header_open_text {
+        margin-top: 13rem;
+    }
+
     .project_tools {
         display: flex;
         flex-direction: column;
