@@ -8,6 +8,13 @@ import { Link } from "react-router-dom";
 
 function HomeProjects() {
 
+    const handleRightClick = (e, href) => {
+        if (e.type === 'contextmenu') {
+            e.preventDefault();
+            window.open(href, '_blank');
+        }
+    };
+
     return(
         <section id="projects" >
 
@@ -16,11 +23,15 @@ function HomeProjects() {
                 <div className="border_container">
                     <h2 className="project_title">Projects</h2>
                     <div className="carousel">
-                        <Link className="link_a_projects_carousel" to={"/top-10-berlin"}>
+                        <Link className="link_a_projects_carousel" to={"/top-10-berlin"}  onContextMenu={(e) => handleRightClick(e, '/top-10-berlin')}>
                             <TopBerlinThree />
                         </Link>
-                        <Link className="link_a_projects_carousel" to={"/seven-circles"}><SevenCirclesTwo /></Link>
-                        <Link className="link_a_projects_carousel" to={"/qualy-time"}><QualyTimeOne /></Link>
+                        <Link className="link_a_projects_carousel" to={"/seven-circles"}  onContextMenu={(e) => handleRightClick(e, 'seven-circles')}>
+                            <SevenCirclesTwo />
+                        </Link>
+                        <Link className="link_a_projects_carousel" to={"/qualy-time"}  onContextMenu={(e) => handleRightClick(e, '/qualy-time')}>
+                            <QualyTimeOne />
+                        </Link>
                     </div>
                 </div>
             </div>

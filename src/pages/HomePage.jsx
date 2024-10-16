@@ -7,11 +7,12 @@ import ContactComponent from "../components/HomeComponents/ContactComponent";
 function HomePage(){
 
     const sendEmail = () => {
-        const email = "radoulovaa@gmail.com";
-        const subject = "";
-        const body = "";
-        window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    }
+        window.open(
+            'https://form.jotform.com/233324105714042',
+            'blank',
+            'scrollbars=yes,toolbar=no,width=700,height=500'
+        );
+    };
 
         return(
             <div className="home_page">
