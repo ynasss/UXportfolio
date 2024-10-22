@@ -9,6 +9,7 @@
 
 .project_container_position {
     width: 61%;
+    max-width: 900px;
     transition: 1.5s ease-in-out;
 }
 

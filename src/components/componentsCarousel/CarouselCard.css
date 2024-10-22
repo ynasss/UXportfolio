@@ -1,6 +1,7 @@
 .carousel_card {
     position: relative;
-    width: 61.8%;
+    width: 81.8%;
+
     /* width: 538px; */
     /* height: 521px; */
     height: auto;
@@ -24,7 +25,7 @@
 }
 
 .text_contianer {
-    width: 80%;
+    width: 83%;
 }
 
 .carousel_text_h3 {
@@ -33,7 +34,7 @@
 
 .carousel_text_h4{
     width: 100%;
-    max-width: 450px;
+    max-width: 550px;
 }
 
 .carousel_image {

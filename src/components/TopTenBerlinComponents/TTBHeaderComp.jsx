@@ -35,7 +35,7 @@ function TTBHeader() {
 
                     <div className="opening_description open_des_TTB">
                             <p>Top10 Berlin is <span className="p_bold">Berlin&apos;s largest location guide,</span> with over 3500 locations organized into Top 10 lists. </p>
-                            <p>IThe project primarily focused on making the vast content more accessible by <span className="p_bold">redesigning the layout, UI and improving the Information Architecture</span> to enhance usability. </p>
+                            <p>The project primarily focused on making the vast content more accessible by <span className="p_bold">redesigning the layout, UI and improving the Information Architecture</span> to enhance usability. </p>
                             <p>
                                 The process was guided by <span className="p_bold">in-depth research, content audits, and content strategy,</span> aiming to optimize the user experience by refining the content structure, 
                                 improving navigation, and integrating user-centered design principles throughout. The redesign modernized the site and made it easier for both locals and tourists to discover locations in the city.

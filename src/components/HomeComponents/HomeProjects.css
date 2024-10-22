@@ -12,7 +12,8 @@
 }
 
 .border_container {
-    width: 61%; 
+    max-width: 900px;
+    /* width: 61%;  */
     box-sizing: border-box;
     transition: 1.5s ease-in-out;
 }
