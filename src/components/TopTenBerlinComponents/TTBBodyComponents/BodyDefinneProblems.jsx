@@ -12,7 +12,7 @@ function DefineProblems() {
                 <h3 className="text_gap">Competitive Analysis</h3>
                 <p className="text_gap">
                     In the competitive analysis of Top10 Berlin, I used the SWOT method to identify the
-                    <span className="p_bold"> strengths, weaknesses, opportunities, and threats </span> 
+                    <span className="p_bold"> strengths, weaknesses, opportunities, and threats </span>
                     relative to its competitors.
                 </p>
 
@@ -29,7 +29,7 @@ function DefineProblems() {
                         <li><p><span className="p_bold">curated directory of over 3,500 locations</span></p></li>
                         <li><p>
                             vast content tailored for <span className="p_bold"> family-friendly locations and businesses, </span>
-                            addressing an 
+                            addressing an
                             important local audience that most competitors do not cater to.
                         </p></li>
                     </ul>
@@ -45,14 +45,14 @@ function DefineProblems() {
                             </p>
                         </li>
                         <li><p><span className="p_bold">dated UI/UX</span></p></li>
-                        <li><p><span className="p_bold">Lack of modern features </span>
-                            such as dynamic maps and advanced filtering functionality that 
-                            direct and indirect competitors like Mit Vergnügen, Visit Berlin, and Mr. München have long integrated. 
+                        <li><p><span className="p_bold">lack of modern features </span>
+                            such as dynamic maps and advanced filtering functionality that
+                            direct and indirect competitors like Mit Vergnügen, Visit Berlin, and Mr. München have long integrated.
                         </p></li>
                         <li><p>
                             <span className="p_bold">the abundance of content, </span>
-                            which boosts the high SEO rankings, 
-                            <span className="p_bold">poses a great challenge when designing an intuitive user interface.</span>
+                            which boosts the high SEO rankings,
+                            <span className="p_bold"> poses a great challenge when designing an intuitive user interface.</span>
                         </p></li>
                     </ul>
                 </div>
@@ -69,10 +69,10 @@ function DefineProblems() {
                         </li>
                         <li>
                             <p>
-                                <span className="p_bold">Introducing a location-based filter, m</span>
-                                offering a more personalized and relevant user 
+                                <span className="p_bold">Introducing a location-based filter, </span>
+                                offering a more personalized and relevant user
                                 experience for locals. Competitors primarily focus on time-based filters as they mainly target tourists.
-                            
+
                             </p>
                         </li>
                         {/* <li><p><span className="p_bold"></span></p></li> */}
@@ -80,9 +80,9 @@ function DefineProblems() {
                             <p>
                                 <span className="p_bold">Becoming the go-to platform for child caretakers and expat families </span>
                                 organizing activities in Berlin presents a unique
-                                <span className="p_bold">opportunity overlooked by competitors.</span>
-                                Modern Berlin is home to a growing number of expats who heavily 
-                                rely on local businesses to productively spend their free time with their young children. 
+                                <span className="p_bold"> opportunity overlooked by competitors. </span>
+                                Modern Berlin is home to a growing number of expats who heavily
+                                rely on local businesses to productively spend their free time with their young children.
                             </p>
                         </li>
                     </ul>
@@ -94,8 +94,8 @@ function DefineProblems() {
                     <ul className="list_project text_gap">
                         <li>
                             <p>
-                                <span className="p_bold">Larger, better-resourced competitors.</span>
-                                Top10 has recently been acquired and holds the status of a startup, with limited resources. 
+                                <span className="p_bold">Larger, better-resourced competitors. </span>
+                                Top10 has recently been acquired and holds the status of a startup, with limited resources.
                             </p>
                         </li>
                     </ul>
@@ -105,14 +105,14 @@ function DefineProblems() {
             <div className="media_mobile">
                 <div className="opening_description_CSH in_section_gap">
                     <h3 className="text_gap">The challenge</h3>
-                    <p className="text_gap"> 
-                        This redesign requires a 
-                        <span className="p_bold">careful balance between maintaining the site&apos;s established SEO rankings while 
+                    <p className="text_gap">
+                        This redesign requires a
+                        <span className="p_bold">careful balance between maintaining the site&apos;s established SEO rankings while
                         implementing modern UX/UI improvements. </span>
                     </p>
                     <p className="extra_text_gap_SC">
-                        Additionally, the <span className="p_bold">underperforming content strategy </span>
-                        must be transformed into one that not only retains users but also delivers value to both the audience and the 
+                        Additionally, the<span className="p_bold"> underperforming content strategy </span>
+                        must be transformed into one that not only retains users but also delivers value to both the audience and the
                         businesses hosted on the platform.
                     </p>
                     <p className="extra_text_gap_SC">
@@ -136,15 +136,15 @@ function DefineProblems() {
                         <span className="p_bold">Content Structure Analysis:</span>
                     </p>
                     <p className="text_gap">
-                        The content on <span className="p_bold"> Top10 is organized </span>into main categories 
-                        (e.g. Food), subcategories (Asian Food), and Top10 lists (Top10 Sushi Restaurants on Berlin), 
+                        The content on <span className="p_bold"> Top10 is organized </span>into main categories
+                        (e.g. Food), subcategories (Asian Food), and Top10 lists (Top10 Sushi Restaurants on Berlin),
                         all accessed<span className="p_bold"> via dropdown menus.</span>
                     </p>
                     <p className="text_gap">
-                        While dropdowns are typically effective for professional or goal-oriented users, they 
-                        <span className="p_bold"> do not encourage explorative or discovery-driven searches, which are 
+                        While dropdowns are typically effective for professional or goal-oriented users, they
+                        <span className="p_bold"> do not encourage explorative or discovery-driven searches, which are
                         key to retaining a broader audience. </span>
-                        In Top10&apos;s case, encouraging users to explore further is critical, but this content structure 
+                        In Top10&apos;s case, encouraging users to explore further is critical, but this content structure
                         fails to support such behavior.
                     </p>
 
@@ -152,10 +152,10 @@ function DefineProblems() {
                          <span className="p_bold">Content Strategy Issue: </span>
                     </p>
                     <p className="text_gap">
-                        Over the years, content has grown without a clear strategy, resulting in <span className="p_bold">misaligned categories, 
-                        subcategories, and Top10 lists</span> that do not logically belong together. This disorganization makes 
-                        navigation challenging, contributing to a <span className="p_bold"> bounce rate of over 95%. </span> The current structure is 
-                        overwhelming for users, particularly when it lacks coherence, leading to user frustration and 
+                        Over the years, content has grown without a clear strategy, resulting in <span className="p_bold">misaligned categories,
+                        subcategories, and Top10 lists</span> that do not logically belong together. This disorganization makes
+                        navigation challenging, contributing to a <span className="p_bold"> bounce rate of over 95%. </span> The current structure is
+                        overwhelming for users, particularly when it lacks coherence, leading to user frustration and
                         early abandonment.
                     </p>
                 </div>
@@ -170,11 +170,11 @@ function DefineProblems() {
                          <span className="p_bold">Hierarchy & Cognitive Overload:</span>
                     </p>
                     <p className="text_gap">
-                        The site&apos;s poor visual hierarchy is another contributor to low user engagement. After 
-                        <span className="p_bold"> analyzing 200+ user sessions in PostHog, </span>I observed that mobile 
-                        users exhibit erratic behavior, rapidly scrolling through pages without interacting with key 
-                        information. This suggests<span className="p_bold"> poor visual hierarchy and cognitive overload due to large blocks of 
-                        unstructured text </span>on each location page. By reducing the amount of text and using clear visual 
+                        The site&apos;s poor visual hierarchy is another contributor to low user engagement. After
+                        <span className="p_bold"> analyzing 200+ user sessions in PostHog, </span>I observed that mobile
+                        users exhibit erratic behavior, rapidly scrolling through pages without interacting with key
+                        information. This suggests<span className="p_bold"> poor visual hierarchy and cognitive overload due to large blocks of
+                        unstructured text </span>on each location page. By reducing the amount of text and using clear visual
                         cues, we can alleviate this issue and encourage users to explore more.
                     </p>
             </div>
@@ -184,12 +184,12 @@ function DefineProblems() {
                          <span className="p_bold">Opportunities Identified in Google Search Console:</span>
                     </p>
                     <p className="text_gap">
-                        Further analysis of traffic spikes in Google Search Console reveals that 
+                        Further analysis of traffic spikes in Google Search Console reveals that
                         <span className="p_bold"> the site attracts significantly more visitors during holidays and seasonal events. </span>
-                        This insight presents a clear<span className="p_bold"> opportunity to engage users by 
-                        featuring seasonal recommendations on the homepage, boosting visibility for less-known or 
-                        underperforming Top 10 lists. </span>Organizing high-traffic categories like Food (1300+ businesses) 
-                        and Family Activities into well-defined subcategories could further encourage users to explore 
+                        This insight presents a clear<span className="p_bold"> opportunity to engage users by
+                        featuring seasonal recommendations on the homepage, boosting visibility for less-known or
+                        underperforming Top 10 lists. </span>Organizing high-traffic categories like Food (1300+ businesses)
+                        and Family Activities into well-defined subcategories could further encourage users to explore
                         more offerings.
                     </p>
             </div>
@@ -204,9 +204,9 @@ function DefineProblems() {
                     Analysis Conclusion
                 </h3>
                 <p className="text_gap">
-                    <span className="p_bold">A comprehensive content audit and strategy are necessary 
-                    to reduce cognitive overload, simplify navigation, and better align the site&apos;s content 
-                    structure</span> with user needs. By introducing a seasonal content strategy and refining the hierarchy, 
+                    <span className="p_bold">A comprehensive content audit and strategy are necessary
+                    to reduce cognitive overload, simplify navigation, and better align the site&apos;s content
+                    structure</span> with user needs. By introducing a seasonal content strategy and refining the hierarchy,
                     Top10 can improve user retention and engagement.
                 </p>
             </div>

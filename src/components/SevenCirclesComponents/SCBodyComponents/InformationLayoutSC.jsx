@@ -15,9 +15,9 @@ function InformationLayout() {
                     <div className="text_width_SC in_section_gap">
                         <h3 className="text_gap">Structure & Navigation</h3>
                         <p>
-                            The websites navigation was designed with a fixed menu layout, providing easy overview of 
-                            all page categories. Art industry stakeholders often want to gain a detailed understanding 
-                            of collaborations, projects, and their artists so I further interlinked those pages, making 
+                            The websites navigation was designed with a fixed menu layout, providing easy overview of
+                            all page categories. Art industry stakeholders often want to gain a detailed understanding
+                            of collaborations, projects, and their artists so I further interlinked those pages, making
                             all available information a couple clicks away.
                         </p>
                     </div>
@@ -29,26 +29,26 @@ function InformationLayout() {
                     <div className="section_text_width fourth_two_half_gap">
                         <h3 className="text_gap">General Layout</h3>
                         <p className="text_gap">
-                            The <span className="p_bold">two independently scrollable panes</span> 
+                            The <span className="p_bold">two independently scrollable panes </span>
                             are an important feature that:
                         </p>
 
                         <ul className="list_project text_gap">
                             <li>
                                 <p>
-                                    allows users to <span className="p_bold">independently explore text and images,</span> 
+                                    allows users to <span className="p_bold">independently explore text and images, </span>
                                     enhancing user autonomy and reducing cognitive load
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <span className="p_bold">simplifies navigation through the lengthy content,</span> 
+                                    <span className="p_bold">simplifies navigation through the lengthy content, </span>
                                     dividing it in two shortens the pages length
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <span className="p_bold">maximally utilizes the screen real estate,</span> enhancing the page content organization
+                                    <span className="p_bold">maximally utilizes the screen real estate, </span> enhancing the page content organization
                                 </p>
                             </li>
                         </ul>
@@ -65,7 +65,7 @@ function InformationLayout() {
                         </p>
 
                         <p className="text_gap">
-                            The following example is an event&apos;s page featuring 
+                            The following example is an event&apos;s page featuring
                         </p>
 
                         <ul className="list_project text_gap">
