@@ -6,7 +6,7 @@ import Miro from "/public/miro 1.png";
 import Html from "/public/html_5_3.ong.png";
 import Css from "/public/css_3.png";
 import Github from "/public/github_3.png";
-import AlexCV from "/public/resume_english_1024.pdf";
+import AlexCV from "/public/Radoulova_Resume.pdf";
 
 function AboutComponent() {
 
@@ -16,7 +16,7 @@ function AboutComponent() {
 
     return(
         <>
-            <section id="about" >  
+            <section id="about" >
 
                 <div className="about_position_container">
 
@@ -28,17 +28,17 @@ function AboutComponent() {
                             <div>
                                 <h3>Who am I</h3>
                                 <div className="about_text">
-                                    <p> 
-                                        My name is Alexandra, and I am a UX/UI Designer based in Graz, Austria. 
-                                        My lifelong fascination with psychology inspired me to pursue a career in UX Design, 
-                                        where I am passionate about understanding and enhancing user interactions. 
+                                    <p>
+                                        My name is Alexandra, and I am a UX/UI Designer based in Graz, Austria.
+                                        My lifelong fascination with psychology inspired me to pursue a career in UX Design,
+                                        where I am passionate about understanding and enhancing user interactions.
                                             <br /><br />
-                                        I believe that great design is a visually pleasing interpretation of research-based 
+                                        I believe that great design is a visually pleasing interpretation of research-based
                                         insights.
                                             <br /><br />
-                                        My strengths lie in  
-                                            <span className="p_bold"> User Research, Wireframing, and Interactive Prototyping, </span> 
-                                        where I blend creativity with analytical thinking to transform business objectives 
+                                        My strengths lie in
+                                            <span className="p_bold"> User Research, Wireframing, and Interactive Prototyping, </span>
+                                        where I blend creativity with analytical thinking to transform business objectives
                                         into seamless, engaging user journeys.
                                     </p>
                                     <img src={profilePic} alt="Not available" />
